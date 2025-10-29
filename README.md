@@ -18,11 +18,11 @@ WinJS 的 Rsdoctor 插件，用于构建分析和性能优化。
 
 ## 构建工具支持
 
-| 构建工具 | 支持情况 | 实现方式 | 所需依赖 |
-|---------|---------|---------|---------|
-| **Webpack** | ✅ 支持 | `@rsdoctor/webpack-plugin` | `@rsdoctor/webpack-plugin` |
-| **Rsbuild** | ✅ 支持 | Rsbuild 内置 `performance.rsdoctor` | 无需额外依赖 |
-| **Vite** | ❌ 不支持 | - | - |
+| 构建工具 | 支持情况 | 实现方式                              | 所需依赖 |
+|---------|---------|-----------------------------------|---------|
+| **Webpack** | ✅ 支持 | `@rsdoctor/webpack-plugin`        | `@rsdoctor/webpack-plugin` |
+| **Rsbuild** | ✅ 支持 | 手动注册，依赖 `@rsdoctor/rspack-plugin` | `@rsdoctor/rspack-plugin` |
+| **Vite** | ❌ 不支持 | -                                 | - |
 
 ## 安装
 
