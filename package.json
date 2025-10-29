@@ -1,20 +1,20 @@
 {
-  "name": "winjs-plugin-template",
+  "name": "@winner-fed/plugin-rsdoctor",
+  "description": "WinJS plugin for Rsdoctor - Build analysis and performance optimization tool",
   "keywords": [
     "winjs",
     "plugin",
-    "template",
+    "rsdoctor",
     "winner-fed",
     "winjs-dev",
-    "rslib",
-    "rsbuild",
-    "typescript",
-    "biome"
+    "rspack",
+    "build-analysis",
+    "performance"
   ],
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/winjs-dev/winjs-plugin-template.git"
+    "url": "git+https://github.com/winjs-dev/winjs-plugin-rsdoctor.git"
   },
   "license": "MIT",
   "type": "module",
@@ -58,13 +58,21 @@
     "@winner-fed/winjs": "*"
   },
   "peerDependencies": {
-    "@winner-fed/utils": "*"
+    "@winner-fed/utils": "*",
+    "@rsdoctor/rspack-plugin": "^1.3.6",
+    "@rsdoctor/webpack-plugin": "^1.3.6"
   },
   "peerDependenciesMeta": {
     "@rsbuild/core": {
       "optional": true
     },
     "@winner-fed/utils": {
+      "optional": true
+    },
+    "@rsdoctor/rspack-plugin": {
+      "optional": true
+    },
+    "@rsdoctor/webpack-plugin": {
       "optional": true
     }
   },
