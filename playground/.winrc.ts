@@ -1,10 +1,10 @@
 import { defineConfig } from '@winner-fed/winjs';
 
 export default defineConfig({
-  plugins: ['../dist'],
+  plugins: ['../src/index.ts'],
   presets: ['@winner-fed/preset-vue'],
-  // rsbuild: {},
-  vite: {},
+  rsbuild: {},
+  // vite: {},
   rsdoctor: {
     disableClientServer: false
   },
