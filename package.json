@@ -47,7 +47,7 @@
     "@biomejs/biome": "^2.2.4",
     "@playwright/test": "^1.55.1",
     "@rsbuild/core": "^1.5.13",
-    "@rslib/core": "^0.17.0",
+    "@rslib/core": "^0.18.0",
     "@types/node": "^22.18.8",
     "@winner-fed/winjs": "*",
     "bumpp": "10.3.1",
